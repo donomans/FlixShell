@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SharpShell</id>
+    <version>1.5.0</version>
+    <title>SharpShell</title>
+    <authors>Dave Kerr</authors>
+    <owners>Dave Kerr</owners>
+    <projectUrl>http://sharpshell.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SharpShell is a framework that lets you build Windows Shell Extensions using the .NET Framework.</description>
+    <summary>SharpShell is a framework that lets you build Windows Shell Extensions using the .NET Framework.</summary>
+    <releaseNotes>Release 1.5.0 adds support for Icon Overlay Handler extensions.</releaseNotes>
+    <copyright>Copyright © Dave Kerr 2013</copyright>
+    <tags>Shell,SharpShell,COM,Context Menu,Icon Handler</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="SharpShell.dll" />
+    </references>
+  </metadata>
+</package>
